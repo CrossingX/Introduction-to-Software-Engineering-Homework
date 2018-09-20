@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 请将标题写在这里
+title: One Day of Mine
 ---
 
-# 我的博客标题
+# One Day of Mine
 
 ## 1、你会使用 vscode 编辑 markdown 了吗？
 
