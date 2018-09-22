@@ -11,7 +11,7 @@ title: 【强烈推荐】一个非常好用的音乐下载网站（可下载音�
 **进入后我们可以看到有很多榜单和歌手**
 ![](http://m.qpic.cn/psb?/V148AffN0O1GfF/loPUNOrkgN9t5V*vw94QlbRtT2t.zjN2*wnrdSXuv0M!/b/dDcBAAAAAAAA&bo=bQeRAwAAAAADB9o!&rf=viewer_4)
 ## 二、选择一首歌曲
-**此处我们以爱热和李佳隆演唱的《星球坠落》为例：**
+**此处我们以艾热和李佳隆演唱的《星球坠落》为例：**
 ![](http://m.qpic.cn/psb?/V148AffN0O1GfF/51SivV5lG0Rqs3ZmpWQRwIAOsoxx13Fsqf1uqP7FG44!/b/dGcBAAAAAAAA&bo=gAePAwAAAAADByk!&rf=viewer_4)
 ## 三、注册并登录
 **登录之后的页面是这样的,可以看到各种格式各种音质以及歌词的下载地址（部分需要会员/超级会员）**
