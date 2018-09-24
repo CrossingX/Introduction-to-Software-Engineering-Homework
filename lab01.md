@@ -29,6 +29,6 @@ title: 【强烈推荐】一个非常好用的音乐下载网站（可下载音�
 **点击上传键，选中文件即可开始上传**
 
 2. 打开手机端的云盘下载该文件，此处还是使用百度网盘
-![](http://m.qpic.cn/psb?/V148AffN0O1GfF/354w2136r*zzboNVulKhPw0jBuL6LHJcC8MDqwD*S08!/b/dDcBAAAAAAAA&bo=LQRvAgAAAAADB2Y!&rf=viewer_4)
+![](https://pan.baidu.com/s/1byLJ6ts3c5POyvsxx1BIAw)
 **下载完成后就大功告成了**  
 **希望这篇文章能帮到读者们**
