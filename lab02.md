@@ -1,22 +1,24 @@
 # 用Construct 2制作一款简单的html游戏
 >很多人都喜欢玩游戏,可是说到制作游戏,绝大多数人就开始挠头了,今天博主就向大家展示如何制作一款简单的html游戏。
+
+
 ## 一、下载并安装Construct 2
 [点击这里](http：//www.scirra.com/construct2/releases/new)以下载最新版本的Construct 2
 <br/>进入网页后点击Download即可下载
-![](https://thumbnail0.baidupcs.com/thumbnail/5207c2218f8d6d6d7d2c75e092cdb79c?fid=1262615369-250528-835106058451308&time=1538928000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-%2FuucTpbagPb8ufumRSi0KOT1xho%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6494170547728091521&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
+![](https://thumbnail0.baidupcs.com/thumbnail/5207c2218f8d6d6d7d2c75e092cdb79c?fid=1262615369-250528-835106058451308&time=1539079200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-xIEkrUNWQP9jM4MZZPd%2BmLnV55g%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6534797792351965071&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
 ## 二、新建一个项目
 安装好Construct 2之后,进入程序,新建项目即可
-![](https://thumbnail0.baidupcs.com/thumbnail/dd8341b48c3a3612744b645230c60f19?fid=1262615369-250528-788405599058699&time=1539007200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-oiIuKYn%2BI1cP3pjMGJqxEJiWhf4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6516065087618187964&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
+![](https://thumbnail0.baidupcs.com/thumbnail/dd8341b48c3a3612744b645230c60f19?fid=1262615369-250528-788405599058699&time=1539079200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-dcOwHM%2BLhDjRh4mZkvor7zYJj0k%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6534806656881660716&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
 
 ## 三、插入对象(背景、人物、效果等)
 1. 首先应该寻找一张作为背景的图片博主选择的是大雄(哆啦A梦中人物)背景，如下图所示:
-![](https://thumbnail0.baidupcs.com/thumbnail/2b7a94180a641c78a2aa562fa2072777?fid=1262615369-250528-525615566557522&time=1539007200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-xtJbpFbgGzYpr2wXfCpaTfHXl4g%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6516187942765241116&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
+![](https://thumbnail0.baidupcs.com/thumbnail/2b7a94180a641c78a2aa562fa2072777?fid=1262615369-250528-525615566557522&time=1539079200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-urcB4zlvsHIL%2FleXAzD14SEtGdc%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6534824071088373757&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
 
 2. 双击空白以插入对象,点击Tiled Background,点击insert以插入,出现十字准线后单击,会打开Edit texture,点击load an image from a file,找到背景图的位置,然后选择它,关闭Edit texture,调整背景以及布局(白色区域)的大小使其几乎重叠
-![](https://thumbnail0.baidupcs.com/thumbnail/9013cd39606af58731138eb42a37e198?fid=1262615369-250528-721059808381622&time=1539010800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-7VqGDkTW7YFwF71ORcs7SlP9bJA%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6516563476511148514&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
+![](https://thumbnail0.baidupcs.com/thumbnail/9013cd39606af58731138eb42a37e198?fid=1262615369-250528-721059808381622&time=1539079200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-s0Auo7UyVh77GNw6H05N45G9Es4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6534831441313539801&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
 
 3. 添加图层Main,确保在图层栏中选择了“Main”图层。这很重要因为所选图层是活动图层。所有新插入的对象都插入到活动层中,因此如果未选中,我们将意外插入到错误的层。
-![](https://thumbnail0.baidupcs.com/thumbnail/867a84adf199015defc200252a52990d?fid=1262615369-250528-32386751190980&time=1539010800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Ux0zZyk50sJyga5gUeswzaIydxo%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6516974498673757636&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
+![](https://thumbnail0.baidupcs.com/thumbnail/867a84adf199015defc200252a52990d?fid=1262615369-250528-32386751190980&time=1539079200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-4LVDwTTpEV6Uchqt5Rx%2BKluX1a8%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6534847209103569630&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
 
 4. 添加输入对象,双击layout1空白处以插入另外的新对象,这次是Mouse和Keyboard。这些对象不需要放置在布局中。它们是隐藏的,并自动在项目范围内工作。现在我们项目中的所有布局都可以接受鼠标和键盘输入。
 5. 插入游戏对象，比如**Player**(哆啦A梦)、**Monster**(老鼠，因为哆啦A梦的耳朵被老鼠咬掉了)、**Bullet**(哆啦A梦最喜欢的铜锣烧)、**Explosion**(爆炸效果)等。
