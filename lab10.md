@@ -10,9 +10,30 @@
 2. **化简$\frac{sinx}{1-cosx}\sqrt{\frac{tanx-sinx}{tanx+sinx}}$**
 ![](images\lab10\4.PNG)
 ## 三、使用python进行矩阵运算
-1. **求$ \begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\ \end{bmatrix} $与$ \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \\ \end{bmatrix} $的乘积**
+1. **求**
+$ 
+\begin{bmatrix} 1 & 0 & 1 \\ 
+0 & 1 & 0 \\ 
+0 & 0 & 1 \\ 
+\end{bmatrix} 
+$
+与
+$
+\begin{bmatrix} 1 & 2 & 3 \\
+ 4 & 5 & 6 \\
+  7 & 8 & 9 \\
+\end{bmatrix}
+ $
+ **的乘积**
 ![](images\lab10\5.PNG)
-2. **求$ \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ -4 & 0 & 1 \\ \end{bmatrix} $的逆矩阵
+2. **求**
+$ 
+\begin{bmatrix} 1 & 0 & 0 \\
+ 0 & 1 & 0 \\
+  -4 & 0 & 1 \\
+\end{bmatrix} 
+$
+**的逆矩阵**
 ![](images\lab10\6.PNG)
 
 
