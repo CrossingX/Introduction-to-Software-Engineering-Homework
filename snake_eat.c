@@ -33,8 +33,8 @@ void init(LKQUEUE *Q);      //队列的初始化
 void destroy(LKQUEUE *Q);       //销毁队列
 int ENQUEUE(LKQUEUE *Q,elemtype e);     //入队
 int DEQUEUE(LKQUEUE *Q,elemtype * e);   //出队
-int printmap(char map[10][10]);         //打印地图
-int returnmap(char map[10][10],elemtype *m);  //恢复地图
+void printmap(char map[10][10]);         //打印地图
+void returnmap(char map[10][10],elemtype *m);  //恢复地图
 int gameover(LKQUEUE *Q,elemtype q);        //游戏结束
 void randomfood(char map[10][10],elemtype *m,LKQUEUE *Q);   //随机食物出现
 int eatfood(LKQUEUE *Q,elemtype m,elemtype *q,char map[10][10]);    //吃食物(变长)
@@ -92,7 +92,6 @@ int main()
 		}
 		else 
 		{	DEQUEUE(&Q,&p);
-			free(&p);
 			ENQUEUE(&Q,q);
 		}
 		Q.current=Q.front;
@@ -182,12 +181,14 @@ int gameover(LKQUEUE *Q,elemtype q){
 		return 1;
 }
 void randomfood(char map[10][10],elemtype *m,LKQUEUE *Q){
+	srand(time(NULL));
 	(*m).x=rand()%10;
 	(*m).y=rand()%10;
 	int flag=2;
 	while(flag)
 	{
 		Q->current=Q->front;
+		flag=2;
 		while(Q->current!=Q->rear)
 		{
 			if(Q->current->data.x==(*m).x&&Q->current->data.y==(*m).y) 

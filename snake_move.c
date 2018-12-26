@@ -83,7 +83,6 @@ int main()
 					 break;
 		}
         	DEQUEUE(&Q,&p);
-			free(&p);
 			ENQUEUE(&Q,q);
 		Q.current=Q.front;
 		while(Q.current!=Q.rear)
